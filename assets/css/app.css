@@ -1,0 +1,180 @@
+/*app.css for otp system*/
+*,body{margin:0;padding:0;
+font-family: 'Roboto', sans-serif;
+}
+body
+{
+	background: #f9f9f9;
+}
+.main_wrapper
+{
+    margin: 0 auto;
+}
+
+.inner_wrapper
+{
+	display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    min-height: 600px;
+
+}
+
+.otp_form
+{
+    max-width: 400px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+h1.otp_login_form_heading
+{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 100;
+	color:#282887;
+}
+
+form.otp_login_form
+{
+    max-width: 300px;
+    padding: 5px;
+    margin: 20px auto;	
+}
+
+input.otp_login_form_input
+{
+display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: 100;
+    border: 1px solid #0692d2;
+    position: relative;
+    max-width: 288px;
+    text-indent: 5px;
+    border-bottom: 0;
+	outline:0;
+	color:#03A9F4;
+}
+
+input.otp_login_form_input::-webkit-input-placeholder {
+   color: #03A9F4;
+}
+
+input.otp_login_form_input:-moz-placeholder { /* Firefox 18- */
+   color: #03A9F4;  
+}
+
+input.otp_login_form_input::-moz-placeholder {  /* Firefox 19+ */
+   color: #03A9F4;  
+}
+
+input.otp_login_form_input:-ms-input-placeholder {  
+   color: #03A9F4;  
+}
+input.otp_login_form_button,a.otp_login_form_button_green,a.otp_login_form_button_fb
+{    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 18px;
+    border: 1px solid #0692d2;
+    position: relative;
+    background: #03A9F4;
+    color: #fff;
+    font-weight: 100;
+	outline:0;
+	cursor:pointer;
+}
+a.otp_login_form_button_green
+{
+text-decoration:none;
+max-width:300px;
+margin:20px auto;
+padding:10px 0;
+background:transparent;
+color:#03A9F4;
+border-width:2px;
+border-radius:25px;
+}
+a.otp_login_form_button_fb
+{
+text-decoration:none;
+max-width:300px;
+margin:20px auto;
+    padding: 10px 0;
+    background: #3b5998;
+    color: #fff;
+    border-width: 2px;
+    text-shadow: 1px -1px 1px #172b56;
+    border-color: #3b5998;
+border-radius:25px;
+}
+.otp_footer
+{
+	text-align: center;
+    background: #fff;
+    padding: 20px 0;
+    font-weight: 100;
+    color: #282887;
+    border-top: 1px solid #ddd;
+}
+
+p.otp_app_err
+{
+    padding: 10px;
+    background: #ffa68a;
+    margin: 10px 0;
+    border: 1px solid #e4663e;
+    color: #bf5736;
+    font-weight: 100;
+	display:block;
+}	
+
+p.otp_app_msg
+{
+    padding: 10px;
+    background: #d6ffa6;
+    margin: 10px 0;
+    border: 1px solid #45c14a;
+    color: #3fb344;
+    font-weight: 100;
+    display: block;
+}	
+
+
+p.otp_app_hint
+{
+    background: #fff59c;
+    padding: 5px;
+    border: 1px solid #ffc821;
+    color: #b57d2b;
+    font-weight: 100;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 20px;
+}	
+
+p.otp_app_msg_success
+{
+padding: 10px;
+    background: transparent url('icon/success.png')no-repeat top center;
+    margin: 10px 0;
+    border: 0;
+    color: #3fb344;
+    font-weight: 400;
+    display: block;
+    padding-top: 110px;
+    font-size: 18px;
+	transition:3s all;
+}	
